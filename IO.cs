@@ -90,7 +90,6 @@ namespace ejector
         {
             if (DeviceIoControl(handle, FSCTL_LOCK_VOLUME, IntPtr.Zero, 0, IntPtr.Zero, 0, out byteReturned, IntPtr.Zero))
             {
-                //Console.WriteLine("lock success");
                 return true;
             }
             Thread.Sleep(500);
