@@ -4,6 +4,12 @@
 
 ------------
 
+Build to single executable with:
+
+`dotnet publish -r win-x64 --self-contained false`
+
+------------
+
 Command-line options
 
 `-d {DRIVELETTER}` : Specifies drive letter to eject.
