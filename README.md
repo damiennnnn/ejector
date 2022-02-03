@@ -16,6 +16,10 @@ Command-line options
 
 ------------
 
+Tested on Windows 10 build 21H2
+
+------------
+
 Depends on:
 
 [System.CommandLine](https://github.com/dotnet/command-line-api "System.CommandLine")
