@@ -1,5 +1,8 @@
 .vscode/launch.json
 .vscode/tasks.json
+bin/*
+obj/*
+.vscode/*
 bin/Debug/net6.0/ejector.deps.json
 bin/Debug/net6.0/ejector.dll
 bin/Debug/net6.0/ejector.exe
